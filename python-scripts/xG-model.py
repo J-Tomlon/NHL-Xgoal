@@ -5,6 +5,8 @@ import seaborn as sns
 
 def main():
     
-    print("Hello World!\n")
-    
+    shots2023 = pd.read_csv("./raw-data/shots_2023.csv")
+
+    test = shots2023[-['shotID', 'xCord', 'yCord']]
+    print(test)
 main()
