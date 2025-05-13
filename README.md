@@ -6,10 +6,12 @@ Simple expected goal model for NHL shots
 ### Navigate to your repository directory
 cd your-repository-path
 
-### If using virtualenv or venv
+python -m venv venv
+
 ### First activate the environment
 source venv/bin/activate  # On Linux/Mac
 ### or
+python -m venv venv
 .\venv\Scripts\activate  # On Windows
 
 ### Then install the packages
